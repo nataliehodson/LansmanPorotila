@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang='fi'>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tuotteet</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel='icon' href="media/reindeer-logo1.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Neuton:wght@200;400;700&display=swap" rel="stylesheet">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="hamburgerMenu.js"></script>
+        <script src="readTextFile.js"></script>
+            
+        </head>
+
+        <header>
+
+            <!--Navbar-->
+            <div class='navbar'>
+                <div class="logo-name">
+                    <img src='./media/reindeer-logo2.png'>
+                    <h1>Porotila Tuomo Länsman</h1>
+                </div>
+                    <nav>
+                        <a href="./index.html">Etusivu</a>
+                        <a href="./products.html">Tuotteet</a>
+                        <a href="./aboutUs.html">Tietoa meistä</a>
+                        <a href="https://pororeseptit.fi/reseptit/">Reseptejä</a>
+                        <div class="flag-container">
+                            <div class='flags'>
+                                <div class='finn'>
+                                    <a href="./products.html"></a>
+                                    <img src="./media/finn-flag.png" alt="Suomeksi">
+                                </div>
+                                <div class="nor">
+                                    <a href="./nor/products.html"></a>
+                                    <img src="./media/nor-flag.png" alt="På norsk">
+                                </div>
+                                <div class="eng">
+                                    <a href="./eng/products.html"></a>
+                                    <img src="./media/eng-flag.png" alt="In English">
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+            </div>
+    
+            <div class="small-nav" id="smallNav">
+                <div class="logo-name" id="logoName">
+                    <img src="./media/reindeer-logo2.png" id='logo' class='logo'>
+                    <h1 id='name' class='name'>Porotila Tuomo Länsman</h1>
+                </div>
+                <div class="small-links" id="smallLinks">
+                    <a href="./index.html">Etusivu</a>
+                    <a href="./products.html">Tuotteet</a>
+                    <a href="./aboutUs.html">Tietoa meistä</a>
+                    <a href="https://pororeseptit.fi/reseptit/">Reseptejä</a>
+                    <a href="./products.html"><img src="./media/finn-flag.png"></a>
+                    <a href="./nor/products.html"><img src="./media/nor-flag.png"></a>
+                    <a href="./eng/products.html"><img src="./media/eng-flag.png"></a>
+
+                </div>
+                <a href="javascript:void(0);" class="menu-icon" onclick="hamburgerMenu()" id='menuIcon'>
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+    
+        </header>
+
+        <body onload="readTextFile()">
+
+            <!--The main photo banner with parallax effect-->
+            <div class='banner parallax prod' id="paraBanner">
+                <div class="img-tint"></div>
+                <div class='banner-cont'>
+                    <p>Tuotteet</p>
+                </div>
+            </div> 
+
+            <div class='products' id='products'></div>
+            <div class='vat'>
+                <p>Sisältää ALV:n 14%</p>
+            </div>
+
+        </body>
+
+        <footer>
+            <div class="contact-info">
+                <p class="address info">
+                    Kielo ja Tuomo Länsman<br>
+                    Nuorgamintie 4644a<br>
+                    99990 Nuorgam<br>
+                    Finland
+                </p>
+                <p class="phone-numbers info">
+                    Tuomo: gsm. +358 400150740<br>
+                    Kielo: gsm. +358 407482579
+                </p>
+                <p class="email info">
+                    kielo.lansman@gmail.com
+                </p>
+                <p class="credit info">
+                    Main photo: Lenita Ojala
+                </p>
+            </div>
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe  id="gmap_canvas" src="https://maps.google.com/maps?q=nuorgamintie%204644b&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+            </div>
+        </footer>
+</html>

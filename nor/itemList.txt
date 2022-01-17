@@ -1,0 +1,50 @@
+Finnbiff  av stek
+28,00 €/kg
+Finnbiff  av bog
+26,00 €/kg
+Grillstek / skiver av stek
+22,50 €/kg
+Halv skrott saget
+14,90 €/kg
+Hel skrott,  grov partert
+13,50 €/kg
+Hel bog
+14,90 €/kg
+Hel side
+13,80 €/kg
+Hel stek, med bein
+18,60 €/kg
+Indrefilet
+44,00 €/kg
+Ytrefilet
+44,00 €/kg
+Indrestek/ flatbiff
+28,00 €/kg
+Kjöttdeik
+14,95 €/kg
+Koteletter
+18,60 €/kg
+Lever
+4,00 €/st
+Margebein
+4,95 €/kg
+Margebein med kjött
+13,80 €/kg
+Suppekjött side
+13,80 €/kg
+Suppekjött bog
+14,90 €/kg
+Suppekjött bryst/hals
+13,80 €/kg
+Surret reinsdyrstek
+28,00 €/kg
+Tunger
+19,90 €/kg
+Fett
+15,00 €/kg
+Törket hjerte
+75,00 €/kg
+Törket side
+65,00 €/kg
+Törket stek
+99,50 €/kg

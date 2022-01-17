@@ -1,0 +1,50 @@
+Poronkäristys paisti
+28,00 €/kg
+Poronkäristys lapa
+26,00 €/kg
+Paistisiivut
+22,50 €/kg
+Puolikasruho
+14,90 €/kg
+Kokoruho raakapaloiteltu
+13,50 €/kg
+Lapa kokonainen
+14,90 €/kg
+Kyljet, kokonainen
+13,80 €/kg
+Paisti luullinen
+18,60 €/kg
+Sisäfile
+44,00 €/kg
+Ulkofile
+44,00 €/kg
+Sisäpaisti
+28,00 €/kg
+Jauheliha
+14,95 €/kg
+Kyljykset
+18,60 €/kg
+Maksa
+4,00 €/kpl
+Ydinluut
+4,95 €/kg
+Potkakiekot
+13,80 €/kg
+Keittoliha kylki
+13,80 €/kg
+Keittoliha lapa
+14,90 €/kg
+Keittoliha rinta/kaula
+13,80 €/kg
+Rullapaisti / verkkopaisti
+28,00 €/kg
+Kielet
+19,90 €/kg
+Rasva
+15,00 €/kg
+Kuivattu sydän
+75,00 €/kg
+Kuivattu kylki
+65,00 €/kg
+Kuivattu paisti
+99,50 €/kg
