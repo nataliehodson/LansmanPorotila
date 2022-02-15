@@ -385,7 +385,7 @@ iframe {
     footer {
         flex-direction: column;
         height: 416px;
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .contact-info {
@@ -404,11 +404,11 @@ iframe {
     }
 }
 
-@media (max-width:500px) {
+/*@media (max-width:500px) {
     footer {
         font-size: 12px;    
     }
-}
+}*/
 
 /*__________________________________________________________*/
 
